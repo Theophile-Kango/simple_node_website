@@ -2,7 +2,7 @@ require('dotenv').config();
 const http = require('http');
 const fs = require('fs');
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 
 const server = http.createServer((req,res) => {
     const readFile = path => {
@@ -29,5 +29,5 @@ const server = http.createServer((req,res) => {
             res.end(readFile('404.html'));
     }
 });
-//const server = http.createServer((req,res) => res.send("Okay"))
+
 server.listen(port, () => console.log(`The server is runing on port ${port}`))
