@@ -6,7 +6,7 @@
 In this project I created a simple node website with 4 simple pages
 ## Live Demo
 
-[Click here](https://replit.com/github/Theophile-Kango/simple_node_website)
+[Click here](https://replit.com/@Theophilekango/simplenodewebsite#index.js)
 
 
 ## Getting Started
